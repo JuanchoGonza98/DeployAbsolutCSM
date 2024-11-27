@@ -23,7 +23,7 @@ services:
       - static_volume:/app/static
       - modules_volume:/app/modulos
       - media_volume:/app/uploads
-      - gunicorn_socket:/app
+      - gunicorn_socket:/app/gunicorn
     depends_on:
       - web
 
