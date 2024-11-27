@@ -37,7 +37,7 @@ services:
       - db_data:/var/lib/postgresql/data
 
 volumes:
-  modules_volumes:
+  modules_volume:
   static_volume:
   media_volume:
   db_data:
